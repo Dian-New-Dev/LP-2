@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+
     font-family: "Roboto", sans-serif;
 }
 
@@ -35,6 +35,19 @@ a {
 html, body {
     padding: 0;
     margin: 0;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
 }
 
 #pageTitle {
@@ -162,7 +175,7 @@ button:hover {
     background-color: #d8970b;
     transform: scale(1.05);
     border: 3px solid white;
-    
+
 }
 
 #mainDiv2 {
@@ -300,15 +313,7 @@ button:hover {
 .stars img {
     width: 30px;
 }
-.reviewContainer {
-    border: 5px solid wheat;
-    border-radius: 10px;
-    padding: 10px;
-    width: 300px;
-    background-color:#008cff50;
-    filter: drop-shadow(3px 5px 4px black);
 
-}
 
 #reviewsContainer p {
     width: 200px;
@@ -349,10 +354,23 @@ li {
     position:fixed;
     bottom: 40px;
     right: 10px;
+
 }
 
 #wpp-icon {
     width: 75px;
+    transition: color 0.3s ease;
+}
+
+#wpp-icon:hover {
+    transform: scale(1.3);
+
+}
+
+@media (max-width: 1500px) {
+    #wpp-icon {
+        width: 50px;
+    }
 }
 
 footer {
@@ -437,3 +455,164 @@ footer {
         margin-left: -50px;
     }
 }
+
+.reviewContainer {
+    /* border: 5px solid wheat; */
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    background-color:#2f00ff50;
+    filter: drop-shadow(3px 5px 4px black);
+}
+
+body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+
+
+html {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+
+main {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+
+
+@media (max-width: 716px) {
+    .html, body, main {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width: 1040px) {
+    #topMenu a {
+        font-size: 16px;
+
+    }
+}
+
+@media (max-width: 850px) {
+    #topMenu {
+        display: none;
+        
+    }
+}
+
+@media (max-width: 600px) {
+    #topBar {
+        display: none;
+        
+    }
+}
+
+@media (min-width: 600px) and (max-width: 850px) {
+    #topBar {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 850px) {
+    #topBarDivs2 {
+        width: 0;
+    }
+}
+
+
+@media (max-width: 850px) {
+    #topMenu button {
+        
+        
+    }
+}
+
+@media (max-width: 850px) {
+    button {
+        margin: 10px;
+        padding: 5px;
+        
+    }
+}
+
+@media (max-width: 600px) {
+    .wpp-icon {
+        display: none;
+        
+    }
+}
+
+@media (max-width: 600px) {
+    #articlesDiv {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .articles {
+
+        width: 100%;
+        margin-bottom: 20px;
+        border-bottom: 2px solid;
+    }
+}
+
+@media (max-width: 600px) {
+    #mainDiv8 {
+    padding-top: 1px;
+    }
+}
+
+@media (max-width: 600px) {
+    #reviews {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+}
+
+@media (max-width: 600px) {
+    .ewviewContainer {
+        margin-bottom: 20px;
+        
+    }
+}
+
+@media (max-width: 600px) {
+    #logo {
+        padding: 0;
+        width: 100%;
+        
+    }
+}
+
+
+@media (max-width: 600px) {
+    .icons {
+        width: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    h5 {
+        font-size: 16px;
+    }
+}
+
+

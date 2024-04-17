@@ -523,9 +523,10 @@ iframe {
 }
 
 .CTA-final {
-    background-color: rgb(167, 167, 167);
-    background-image: url('images/lady justice.jpg');
+    background-color: rgb(53, 53, 53);
+    background-image: url('images/CTA-img.jpg');
     background-blend-mode: multiply;
+    background-position: 15% 15%;
     color: white;
     width: 100%;
     border: 1px solid black;
